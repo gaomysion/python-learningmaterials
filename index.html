@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>python学习</title>
+  <!-- <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="//cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+</head>
+
+<body>
+  <div class="container" style="margin-top:9%;">
+    <div class="jumbotron">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3>选择菜单开始python学习</h3>
+        </div>
+
+      </div>
+      <a href="./jichu/index.html">python基础语法</a>
+      <hr>
+      <a href="./gaoji/index.html">python高级语法</a>
+      <hr>
+      <a href="./network/index.html">python网络编程</a>
+      <hr>
+      <a href="./web/index.html">pythonWEB编程</a>
+      <hr>
+      <a href="./system/index.html">python系统编程</a>
+      <hr>
+      <a href="./django基础/index.html">django4基础</a>
+      <hr>
+      <a href="./django加强/index.html">django4加强</a>
+      <hr>
+      <hr>
+      <a href="./django_drf/index.html">django_drf</a>
+      <hr>
+      <a href="./zhengze/index.html">python正则</a>
+      <hr>
+      <a href="./database/MySQL/index.html">python--mysql</a>
+      <hr>
+      <a href="./database/redis/index.html">python--redis</a>
+      <hr>
+      <a href="./database/mongo/index.html">python--mongo</a>
+      <hr>
+      <hr>
+      <a href="./data/index.html">python--data数据结构</a>
+      <hr>
+      <hr>
+      <a href="./数据挖掘/day01/资料/数据分析/index.html">数据挖掘(代码相关直接查看资料，页面仅仅是html内容不全)</a>
+      <hr>
+    </div>
+
+    <p id="code" style="text-align: center;"></p>
+
+  </div>
+  <script>
+
+    var geduo = window.parent.location.href.toLowerCase();
+    var f = new Array();
+    f = geduo.split("/");
+    var ztwww = f[2];
+
+    switch (ztwww) {
+      case "python.itbiwen.com":
+        var obj = document.getElementById("code");
+        obj.innerHTML = "陕ICP备18013552号-1";
+        break;
+      case "www.itbiwen.com":
+        var obj = document.getElementById("code");
+        obj.innerHTML = "陕ICP备18013552号-1";
+        break;
+      case "www.mmb666.cn":
+        var obj = document.getElementById("code");
+        obj.innerHTML = "陕ICP备18013552号-1";
+        break;
+      case "www.ziyouff.com":
+        var obj = document.getElementById("code");
+        obj.innerHTML = "陕ICP备18013552号-1";
+        break;
+      case "www.mshangz.com":
+        var obj = document.getElementById("code");
+        obj.innerHTML = "陕ICP备18013552号-2";
+        break;
+      case "www.mshangz.cn":
+        var obj = document.getElementById("code");
+        obj.innerHTML = "陕ICP备18013552号-2";
+        break;
+      default:
+        break;
+    }
+  </script>
+</body>
+
+</html>
